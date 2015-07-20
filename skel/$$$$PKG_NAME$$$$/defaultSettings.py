@@ -34,3 +34,5 @@ Other modules can access the value of FOO like this:
 Don't try to get the value of FOO from django.conf.settings.  That
 settings object will not know about the default value!
 """
+
+$$$$APP_NAME$$$$_BOWER_INSTALLED_APPS = ()
