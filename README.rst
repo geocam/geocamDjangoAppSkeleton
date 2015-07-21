@@ -3,7 +3,7 @@ This code repository is a very mildly patched version of the excellent django-ap
 Our version is intended to be used by developers at NASA.  
 We made some boring changes so that it generates an app licensed Apache 2.0.
 
-.. _django-app-skeleton: https://github.com/washingtontimes/django-app-skeleton
+.. _django-app-skeleton: https://github.com/callowayproject/django-app-skeleton
 
 You can view the `install directions`_.
 
