@@ -35,4 +35,7 @@ Don't try to get the value of FOO from django.conf.settings.  That
 settings object will not know about the default value!
 """
 
-$$$$APP_NAME$$$$_BOWER_INSTALLED_APPS = ()
+from geocamUtil.SettingsUtil import getOrCreateArray
+
+BOWER_INSTALLED_APPS = getOrCreateArray('BOWER_INSTALLED_APPS')
+BOWER_INSTALLED_APPS += []
