@@ -14,7 +14,7 @@
 # specific language governing permissions and limitations under the License.
 #__END_LICENSE__
 
-from django.conf.urls import patterns, include
+from django.conf.urls import *
 
 from django.views.generic.base import TemplateView
 from $$$$PKG_NAME$$$$ import views
