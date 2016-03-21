@@ -20,6 +20,6 @@ from django.views.generic.base import TemplateView
 from $$$$PKG_NAME$$$$ import views
 
 
-urlpatterns = patterns('',
-                       (r'^$', TemplateView.as_view(template_name='$$$$PKG_NAME$$$$/index.html'), {}, 'index'),
-                       )
+urlpatterns = ['',
+               url(r'^$', TemplateView.as_view(template_name='$$$$PKG_NAME$$$$/index.html'), {}, 'index'),
+               ]
